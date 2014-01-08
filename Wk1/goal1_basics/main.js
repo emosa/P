@@ -78,7 +78,10 @@ console.log("a: ", a + " / b: ", b + "/ c: ", c + " / d: ", d);
 // string (definition, concatenation, escape character)
 console.log('------ strings ----------');
 
+var name = "James Bond";
+console.log(name);
 //basic string
+
 
 
 //string w/ escape characters " \ "
