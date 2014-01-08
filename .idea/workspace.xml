@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="44582d35-4f37-4e50-a2ee-edfe2ae7a9fc" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Wk1/goal1_basics/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Wk1/goal1_basics/js/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Wk1/goal1_basics/main.js" afterPath="" />
-    </list>
+    <list default="true" id="44582d35-4f37-4e50-a2ee-edfe2ae7a9fc" name="Default" comment="" />
     <ignored path="PWA1.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
