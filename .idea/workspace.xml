@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="44582d35-4f37-4e50-a2ee-edfe2ae7a9fc" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wk1/goal1_basics/main.js" afterPath="$PROJECT_DIR$/Wk1/goal1_basics/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="44582d35-4f37-4e50-a2ee-edfe2ae7a9fc" name="Default" comment="" />
     <ignored path="PWA1.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -38,8 +35,10 @@
       <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Wk1/goal1_assign_duel1/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="9" selection-start="48" selection-end="84" vertical-scroll-proportion="0.04360465" vertical-offset="0" max-vertical-offset="688">
-              <folding />
+            <state line="5" column="0" selection-start="90" selection-end="90" vertical-scroll-proportion="0.10901163" vertical-offset="0" max-vertical-offset="688">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -70,7 +69,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="636" />
+    <option name="x" value="-42" />
     <option name="y" value="22" />
     <option name="width" value="874" />
     <option name="height" value="785" />
@@ -266,7 +265,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="636" y="22" width="874" height="785" extended-state="0" />
+    <frame x="-42" y="22" width="874" height="785" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -365,8 +364,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Wk1/goal1_assign_duel1/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="9" selection-start="48" selection-end="84" vertical-scroll-proportion="0.04360465" vertical-offset="0" max-vertical-offset="688">
-          <folding />
+        <state line="5" column="0" selection-start="90" selection-end="90" vertical-scroll-proportion="0.10901163" vertical-offset="0" max-vertical-offset="688">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
