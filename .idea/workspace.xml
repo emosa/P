@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="44582d35-4f37-4e50-a2ee-edfe2ae7a9fc" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Wk1/goal1_assign_duel1/main.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wk1/goal1_assign_duel1/index.html" afterPath="$PROJECT_DIR$/Wk1/goal1_assign_duel1/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wk1/goal1_assign_duel1/js/main.js" afterPath="$PROJECT_DIR$/Wk1/goal1_assign_duel1/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
     </list>
     <ignored path="PWA1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,7 +29,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Wk1/goal1_assign_duel1/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="24" selection-start="292" selection-end="292" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="660">
+            <state line="34" column="46" selection-start="546" selection-end="546" vertical-scroll-proportion="-21.25" vertical-offset="0" max-vertical-offset="660">
               <folding />
             </state>
           </provider>
@@ -39,7 +38,7 @@
       <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Wk1/goal1_assign_duel1/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="0" selection-start="438" selection-end="438" vertical-scroll-proportion="0.6758721" vertical-offset="0" max-vertical-offset="705">
+            <state line="31" column="0" selection-start="513" selection-end="513" vertical-scroll-proportion="0.52034885" vertical-offset="107" max-vertical-offset="900">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -66,16 +65,16 @@
         <option value="$PROJECT_DIR$/Wk3/temp.html" />
         <option value="$PROJECT_DIR$/Wk4/temp.html" />
         <option value="$PROJECT_DIR$/Wk1/goal1_basics/main.js" />
-        <option value="$PROJECT_DIR$/Wk1/goal1_assign_duel1/index.html" />
         <option value="$PROJECT_DIR$/Wk1/goal1_assign_duel1/main.js" />
+        <option value="$PROJECT_DIR$/Wk1/goal1_assign_duel1/index.html" />
         <option value="$PROJECT_DIR$/Wk1/goal1_assign_duel1/js/main.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="782" />
-    <option name="y" value="22" />
-    <option name="width" value="608" />
+    <option name="x" value="798" />
+    <option name="y" value="23" />
+    <option name="width" value="637" />
     <option name="height" value="785" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -224,8 +223,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Wk1/goal1_assign_duel1/js" />
       <recent name="$PROJECT_DIR$/Wk1/goal1_assign_duel1" />
+      <recent name="$PROJECT_DIR$/Wk1/goal1_assign_duel1/js" />
       <recent name="$PROJECT_DIR$/Wk1/goal1_basics" />
       <recent name="$PROJECT_DIR$/Wk1/goal1_basics/js" />
     </key>
@@ -270,6 +269,23 @@
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="44582d35-4f37-4e50-a2ee-edfe2ae7a9fc" name="Default" comment="" />
@@ -279,20 +295,20 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="782" y="22" width="608" height="785" extended-state="0" />
+    <frame x="798" y="23" width="637" height="785" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27408412" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23355263" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20444915" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -317,15 +333,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="24" selection-start="292" selection-end="292" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="660">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Wk1/goal1_assign_duel1/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="137" selection-end="137" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="225">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -356,14 +363,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Wk1/goal1_assign_duel1/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="24" selection-start="292" selection-end="292" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="660">
+        <state line="34" column="46" selection-start="546" selection-end="546" vertical-scroll-proportion="-21.25" vertical-offset="0" max-vertical-offset="660">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Wk1/goal1_assign_duel1/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="0" selection-start="438" selection-end="438" vertical-scroll-proportion="0.6758721" vertical-offset="0" max-vertical-offset="705">
+        <state line="31" column="0" selection-start="513" selection-end="513" vertical-scroll-proportion="0.52034885" vertical-offset="107" max-vertical-offset="900">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>

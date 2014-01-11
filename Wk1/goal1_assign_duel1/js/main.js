@@ -1,41 +1,54 @@
 /* Elimarie Morales Santiago
-   Jan. 08, 2014
-   Goal1: Assignment: The Duel - Part1
+ Jan. 10, 2014
+ Goal1: Assignment: The Duel - Part1
  */
 
 // self-executing function
 
-(function(){})();
+(function(){
 
-var playerOneName = “Spiderman;
-var playerOneHealth = 100;
-var playerOneDamge = 50;
+// Players Names
+    var playerOneName = "Spiderman";
+    var playerTwoName = "Batman";
 
-var playerTwoName = "Batman";
-var playerTwoHealth = 100;
-var playerTwoDamage = 50;
+// Players Health
+    var playerOneHealth = 100;
+    var playerTwoHealth = 100;
+
+// Players Damage
+    var playerOneDamge = 20;
+    var playerTwoDamage = 20;
+
+// Initiate Round
+    var round = 1;
+
+    function fight(){};
+    for (var i = 0; i < 10; i++){ }
+
+    function winnerCheck(){};
+
+})();
 
 
-fight() function
-for (var i = 0; i < 10; i++){ }
 
-
-
-winnerCheck() function
 
     winner
 loser
 both die
 no winner yet
 
+
+
 break command
+
+Math.floor(Math.random() * (max - min) + min);
+/*
 
 Batman: 100 **START** Spiderman 100
  Batman: 88 **ROUND 1 OVER** Spiderman 92
  Batman: 79 **ROUND 2 OVER** Spiderman 84
  Batman: 5 **ROUND 9 OVER** Spiderman 11
  GAME OVER Batman Wins!!!
-
-    Math.floor(Math.random() * (max - min) + min);
+/*
 
 
