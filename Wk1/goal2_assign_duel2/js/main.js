@@ -1,5 +1,5 @@
 /* Elimarie Morales Santiago
- Jan. 10, 2014
+ Jan. 11, 2014
  Goal1: Assignment: The Duel - Part1
  */
 
