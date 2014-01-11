@@ -25,9 +25,9 @@
 
     function fight(){
 
-alert(playerOneName + ":" + playerOneHealth + " *START* " + playerTwoName + ":" + playerTwoHealth);
+     alert(playerOneName + ":" + playerOneHealth + " *START* " + playerTwoName + ":" + playerTwoHealth);
 
-    for (var i = 0; i < 10; i++){
+     for (var i = 0; i < 10; i++){
 
 // Random formula
             var minDamage1 = playerOneDamge * .5;
@@ -39,26 +39,27 @@ alert(playerOneName + ":" + playerOneHealth + " *START* " + playerTwoName + ":" 
             playerOneHealth-=f1;
             playerTwoHealth-=f2;
 
-      console.log(playerOneName + ":" + playerOneHealth + ":" + playerTwoName + ":" + playerTwoHealth);
+            console.log(playerOneName + ":" + playerOneHealth + ":" + playerTwoName + ":" + playerTwoHealth);
 
 // check for winner
-      var result= winnerCheck();
-        console.log(result);
-      if (result === " No Winner "){
-          round ++;
-          alert(playerOneName + ":" + playerOneHealth + " *ROUND " + round + " OVER* " + playerTwoName + ":" + playerTwoHealth);
-      }else {
-          alert(result);
-          break;
+            var result= winnerCheck();
+            console.log(result);
+            if (result === " No Winner "){
+            round ++;
+            alert(playerOneName + ":" + playerOneHealth + " *ROUND " + round + " OVER* " + playerTwoName + ":" + playerTwoHealth);
+            }else {
+            alert(result);
+
+            break;
       };
         };
 
     };
 
     function winnerCheck(){
-        console.log("In winnerCheck FN");
+            console.log("In winnerCheck FN");
 
-        var result= " No Winner ";
+    var result= " No Winner ";
 
         if (playerOneHealth < 1 && playerTwoHealth < 1){
           result = " You Both Die ";
@@ -71,7 +72,7 @@ alert(playerOneName + ":" + playerOneHealth + " *START* " + playerTwoName + ":" 
 
         };
 
-        return result;
+    return result;
 
     };
 
