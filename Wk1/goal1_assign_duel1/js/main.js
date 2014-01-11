@@ -34,13 +34,15 @@
             var f1 = Math.floor(Math.random() * (playerOneDamge - minDamage1) + minDamage1);
             var f2 = Math.floor(Math.random() * (playerTwoDamage - minDamage2) + minDamage2);
 
-//inflict damage
+// inflict damage
             playerOneHealth-=f1;
             playerTwoHealth-=f2;
 
       console.log(playerOneName + ":" + playerOneHealth + ":" + playerTwoName + ":" + playerTwoHealth);
 
-        var result= winnerCheck();
+
+// check for winner
+      var result= winnerCheck();
         console.log(result);
       if (result === " No Winner "){
           round ++;
@@ -54,7 +56,8 @@
     };
 
     function winnerCheck(){
-        console.log("in winnerCheck FN");
+        console.log("In winnerCheck FN");
+
         var result= " No Winner ";
 
         if (playerOneHealth < 1 && playerTwoHealth < 1){
@@ -73,6 +76,7 @@
     };
 
     /*** The program starts below ***/
+
     fight();
 
 })();
