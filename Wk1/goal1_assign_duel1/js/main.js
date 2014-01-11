@@ -7,6 +7,7 @@
 
 (function(){
         console.log("FIGHT!!!");
+
 // Players Names
     var playerOneName = "Spiderman";
     var playerTwoName = "Batman";
@@ -24,9 +25,9 @@
 
     function fight(){
 
-     alert(playerOneName + ":" + playerOneHealth + " *START* " + playerTwoName + ":" + playerTwoHealth);
+alert(playerOneName + ":" + playerOneHealth + " *START* " + playerTwoName + ":" + playerTwoHealth);
 
-        for (var i = 0; i < 10; i++){
+    for (var i = 0; i < 10; i++){
 
 // Random formula
             var minDamage1 = playerOneDamge * .5;
@@ -39,7 +40,6 @@
             playerTwoHealth-=f2;
 
       console.log(playerOneName + ":" + playerOneHealth + ":" + playerTwoName + ":" + playerTwoHealth);
-
 
 // check for winner
       var result= winnerCheck();
