@@ -1,6 +1,6 @@
 /* Elimarie Morales Santiago
  Jan. 11, 2014
- Goal1: Assignment: The Duel - Part1
+ Goal2: Assignment: The Duel - Part2
  */
 
 // self-executing function
@@ -29,17 +29,17 @@
 
 // inflict damage
             fighter1[1]-=f1;
-            fighter2[2]-=f2;
+            fighter2[1]-=f2;
 
 
-            console.log(playerOneName + ":" + playerOneHealth + ":" + playerTwoName + ":" + playerTwoHealth);
+            console.log(fighter1[0] + ":" + fighter1[1] + ":" + fighter2[0] + ":" + fighter2[1]);
 
 // check for winner
             var result= winnerCheck();
             console.log(result);
             if (result === " No Winner "){
             round ++;
-            alert(playerOneName + ":" + playerOneHealth + " *ROUND " + round + " OVER* " + playerTwoName + ":" + playerTwoHealth);
+            alert(fighter1[0] + ":" + fighter1[1] + " *ROUND " + round + " OVER* " + fighter2[0] + ":" + fighter2[1]);
             }else {
             alert(result);
 
@@ -54,14 +54,14 @@
 
     var result= " No Winner ";
 
-        if (playerOneHealth < 1 && playerTwoHealth < 1){
+        if (fighter1[1] < 1 && fighter2[1] < 1){
           result = " You Both Die ";
 
-        }else if (playerOneHealth <1){
-          result = playerTwoName + " WINS!!! ";
+        }else if (fighter1[1] <1){
+          result = fighter2[0] + " WINS!!! ";
 
-        }else if (playerTwoHealth <1){
-          result = playerOneName + " WINS!!! ";
+        }else if (fighter2[1] <1){
+          result = fighter1[0] + " WINS!!! ";
 
         };
 
