@@ -46,39 +46,62 @@
 
     console.log("1. avg of an array of numbers");
     var avgNumbers = function(arr){
+        var sum = 0;
+        for (var i = 0, o = arr.length; i < o; i++) {
+            sum += arr[i];
+        }
+        return sum / arr.length;
 
-        //CODE GOES HERE
     };
-
+    avgNumbers([1,2,3,4,5]);
     console.log('avg number = ', avgNumbers([1,2,3,4,5]));
 
     //--------------------------------------------------------
     console.log("2. concat first and last name");
 
-        //PUT FUNCTION HERE
+        var fullName = function(){
+           var fisrtN= "James";
+           var lastN= "Bond";
+           var combineAll= fisrtN.concat(lastN);
+           return combineAll;
 
-    console.log(fullName('James', 'Bond'));
+        };
+
+    console.log(fullName());
 
     //--------------------------------------------------------
     console.log("3. word count");
-    var ipsum = "this is test text that is being used as input to a function"
 
-        //PUT FUNCTION HERE
+    var ipsum = "this is test text that is being used as input to a function";
+    function wordCount (str){
+        var counter = 0;
+        var words = ipsum.split(" ");
+        for (i = 0; i < words.length; i++){
+        if (words[i] != "")
+           counter += 1;
+      }
+        return (counter);
+      }
 
-    console.log(wordCount(ipsum));
+    console.log(wordCount());
 
     //--------------------------------------------------------
     console.log("4. sentence char count");
 
-        //PUT FUNCTION HERE
+     function charCount(str){
+         var strCount = ipsum.length;
+         return strCount;
+
+        }
 
     console.log(charCount(ipsum));
 
     //--------------------------------------------------------
     console.log("5. how many vowels in a word");
 
-        //PUT FUNCTION HERE
+        function vowelsInWord(){
 
+        }
     console.log(vowelsInWord('JavaScript'));
 
     //--------------------------------------------------------
