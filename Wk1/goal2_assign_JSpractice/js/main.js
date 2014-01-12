@@ -99,15 +99,34 @@
     //--------------------------------------------------------
     console.log("5. how many vowels in a word");
 
-        function vowelsInWord(){
+    function vowelsInWord(str){
+        var vowels = 'aeiouAEIOU';
+        var count = 0;
 
+        for(var i = 0; i <str.length; i++){
+            if (vowels.indexOf(str[i])!== -1){
+                count += 1;
+            }
         }
+        return count;
+    }
+
     console.log(vowelsInWord('JavaScript'));
 
     //--------------------------------------------------------
     console.log("6. find number and create an array of even or odd numbers");
 
-        //PUT FUNCTION HERE
+    function findNum(){
+       var numbers= [31,22,4,67,83,6,5,4];
+       var numberEvens = 0;
+       for(var i = 0; i < numbers.length; i++) {
+            if (i % 2 == 0) {
+                numberEvens++;
+
+        }else
+            return numbers
+        }
+    }
 
     console.log(findNum([31,22,4,67,83,6,5,4]));
     console.log(findNum([31,22,4,67,83,6,5,4], false));
