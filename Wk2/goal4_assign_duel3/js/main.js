@@ -1,6 +1,6 @@
 /* Elimarie Morales Santiago
  Jan. 18, 2014
- Goal3: Assignment: The Duel - Part3
+ Goal4: Assignment: The Duel - Part III
  */
 
 // self-executing function
