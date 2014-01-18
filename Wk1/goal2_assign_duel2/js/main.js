@@ -2,6 +2,7 @@
  Jan. 11, 2014
  Goal2: Assignment: The Duel - Part2
  */
+//Assignment didn't save on git'
 
 // self-executing function
 
